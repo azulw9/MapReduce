@@ -15,5 +15,5 @@ db.Orders.mapReduce(
         {out: 'customers_for_each_prod'});
         
 db.customers_for_each_prod.find();
-       
-//db.customers_for_each_prod.find({$where: "this.value.customers.length > 1"});   
+//products and customers that but product more than 1 time     
+db.customers_for_each_prod.find({$where: "this.value.customers.length > 1"});   
