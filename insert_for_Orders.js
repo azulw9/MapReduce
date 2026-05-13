@@ -5,13 +5,13 @@ try {
         "total_sum": 750,
         "customer":
          {
-            "name": "Daria",
-            "surname": "Molochenko",
-            "phones" : [380677065551, 380967897676],
+            "name": "TT",
+            "surname": "TT",
+            "phones" : [66, 99],
             "address" : "PTI, Peremohy 37, Kyiv, UA"
          },
          "payment":{
-             "card_owner" : "Daria Molochenko",
+             "card_owner" : "`tt",
              "cardId" : 33456678
          },
          "order_items_id": [
